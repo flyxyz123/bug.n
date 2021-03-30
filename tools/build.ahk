@@ -79,7 +79,7 @@ class Logging {
   }
 }
 
-compile(source, destination, customIcon, compiler := "C:\Program Files\AutoHotkey\Compiler\Ahk2Exe.exe", compressor := "C:\Program Files\AutoHotkey\Compiler\mpress.exe") {
+compile(source, destination, customIcon, compiler := "D:\Program Files\Scoop\apps\autohotkey\current\Compiler\Ahk2Exe.exe", compressor := "D:\Program Files\Scoop\apps\autohotkey\current\Compiler\mpress.exe") {
   Global _log
   
   useMpress := FileExist(compressor) ? "1" : "0"
